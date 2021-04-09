@@ -1,0 +1,44 @@
+.servicesImg {
+    width: 100%; height: 50%; margin-bottom: 15px;
+}
+
+.diagramImg {
+  width: 100%; margin-bottom: 15px;
+  align-content: center;
+}
+
+
+.checked {
+    color: orange;
+  }
+
+  [class*="list-group-item"] {
+      font-size: 0.5rem;
+      padding: 0.3em;
+  }
+
+  [class*="fa-star"] {
+    font-size:0.5rem;
+  }
+
+  @media screen and (min-width: 300px) {
+    [class*="list-group-item"] {
+        font-size: 0.7rem;
+        padding: 0.5em;
+    }
+    [class*="fa-star"] {
+        font-size:0.7rem;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    [class*="list-group-item"] {
+        font-size: 1rem;
+        padding: 1em;
+    }
+    [class*="fa-star"] {
+        font-size:1rem;
+    }
+  }
+
+  
